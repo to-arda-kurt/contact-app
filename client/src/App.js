@@ -11,7 +11,8 @@ import AuthState from "./context/auth/AuthState";
 
 const App = () => {
   return (
-    <AuthState>
+    <AuthState> 
+    
       <ContactState>
         <Router>
           <>
